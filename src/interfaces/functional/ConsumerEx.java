@@ -13,8 +13,6 @@ public class ConsumerEx {
 			System.out.println("Input is -> "+arg);
 		};
 		consumer1.andThen(consumer).accept("Test");
-		
-		
 	}
 
 }
